@@ -1,0 +1,14 @@
+while True:
+    sayi = int(input("Lütfen Bir Değer Giriniz : "))
+    fak = 1
+
+    if sayi == 0:
+        print("sonuc : 1")
+    elif sayi == 1:
+        print("sonuc : 1")
+    elif sayi < 0:
+        print("Girdiğiniz değer 0'dan küçüktür")
+    else:
+        for i in range(1, sayi + 1):
+            fak = fak * i
+        print("Sonuç : ", fak)
